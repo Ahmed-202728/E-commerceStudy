@@ -9,6 +9,7 @@
         public Guid CategoryId { get; set; }
         public Category Category { get; set; }
         public bool IsActive { get; set; } = true;
+        public ICollection<ProductImage> Images { get; set; }
         
     }
 
