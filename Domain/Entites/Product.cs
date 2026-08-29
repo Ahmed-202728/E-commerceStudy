@@ -10,7 +10,8 @@
         public Category Category { get; set; }
         public bool IsActive { get; set; } = true;
         public ICollection<ProductImage> Images { get; set; }
-        
+        public ICollection<OrderItem> OrderItems { get; set; }
+
     }
 
 }
